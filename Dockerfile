@@ -2,7 +2,7 @@ FROM node:alpine
 
 LABEL maintainer="jkbuster@github.com"
 
-RUN yarn global add heroku@7.5.11
+RUN yarn global add heroku@7.16.8
 
 VOLUME /project
 WORKDIR /project
